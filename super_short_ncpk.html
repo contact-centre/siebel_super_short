@@ -11,7 +11,7 @@
 
     <title>Siebel</title>
   </head>
-  <body>
+  <body style="width: auto !important;">
 
     <header class="header">
 
@@ -85,14 +85,14 @@
     
       <div class="btn_top">
         <button class="btn_top_1">Сохранить и выйти</button>
-        <button class="btn_top_3">Далее</button>
+        <button class="btn_top_3"><a href="delivery_ncpk.html" style="text-decoration: none; color: white;">Далее</a></button>
       </div>
 
       <div class="textName">
         <p class="textName_word">Заявка 00000000000 - ФАМИЛИЯ ИМЯ ОТЧЕСТВО Офис оформления: Default Organization</p>
       </div>
 
-      <div class="refusal">
+      <div class="refusal" style="width: 40%;">
         
           <div class="form-check refusal_form-check">
             <label class="form-check-label refusal_form-check-label" for="flexCheckDefault">Отказ клиента</label>
@@ -114,69 +114,7 @@
         
       </div>
 
-      <!--<div class="short_block_top">
-
-      <div class="personal p-2" style="width: 50%;">
-        <p class="personal_text" style="width: 100%;">Персональные данные клиента</p>
-        <div class="form_name">
-        <form class="">
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 100px;">Фамилия</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="Иванов" placeholder="Фамилия" aria-label="Фамилия" style="width: auto;">
-              </div>
-            
-          </div>
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 100px;">Имя</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="Иван" placeholder="Имя" aria-label="Имя" style="width: auto;">
-              </div>
-            
-          </div>
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 100px;">Отчество</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="Иванович" placeholder="Отчество" aria-label="Отчество" style="width: auto;">
-              </div>
-            
-          </div>
-        </form>
-        <form class="">
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Пол:</label>
-              <div class="col-sm-1" style="width: 200px;">
-                <select id="inputSex" class="form-select form-select-sm sex_form-select">
-                <option selected>Мужской</option>
-                <option>Мужской</option>
-                <option>Женский</option>
-              </select>
-              </div>
-            
-          </div>
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Дата рождения</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="01.01.2001" placeholder="Дата рождения" aria-label="Дата рождения" style="width: auto;">
-              </div>
-            
-          </div>
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Место рождения</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="Г ВОРОНЕЖ" placeholder="Место рождения" aria-label="Место рождения" style="width: auto;">
-              </div>
-            
-          </div>
-        </form>
-        </div>
-      </div>-->
+     
 
       <div class="namber_goal_superShort_ncpk p-2" style="width: 100%;">
 
@@ -218,155 +156,7 @@
 
       </div>
 
-      <!--</div>
-
-      <div class="work">
-        <p class="work_text">Сведения о занятости</p>
-        <div class="work_block">
-          <div class="work_block_1">
-            <form class="work_form">
-              <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Вид занятости<span class="" style="color: red;">*</span></label>
-              <div class="col-sm-1" style="width: 250px;">
-                <select id="inputSex" class="form-select form-select-sm sex_form-select">
-                <option selected>Работа/служба по найму</option>
-                <option>Работа/служба по найму</option>
-                <option>Индивидуальный предприниматель</option>
-                <option>Частная практика</option>
-                <option>Пенсионер</option>
-              </select>
-              </div>
-            
-          </div>
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Полное наименование<span class="" style="color: red;">*</span></label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="ООО Ромашка" placeholder="Организация" aria-label="Организация" style="width: 225px;">
-              </div>
-            
-          </div>
-            </form>
-          </div>
-          <div class="work_block_2" style="margin-left: 20px;">
-            <form class="work_form">
-              <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Дата приема на работу<span class="" style="color: red;">*</span></label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="11.2020" placeholder="Дата приема на работу" aria-label="Дата приема на работу" style="width: 225px;">
-              </div>
-            
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="pass_bki_cod">
-
-      <div class="passport p-2" style="width: 50%;">
-        <p class="passport_text" style="width: 100%;">Паспортные данные клиента</p>
-        <form class="passport_form">
-          <div class="passport_block_1" style="width: 50%;">
-            <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Тип документа</label>
-              <div class="col-sm-1" style="width: 250px;">
-                <select id="inputSex" class="form-select form-select-sm sex_form-select">
-                <option selected>Общегрожданский паспорт</option>
-                <option>Общегрожданский паспорт</option>
-              </select>
-              </div>
-              <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Серия</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="1111" placeholder="Серия" aria-label="Серия" style="width: 225px; margin-top: 5px;">
-              </div>
-            
-              </div>
-              <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Номер</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="111111" placeholder="Номер" aria-label="Номер" style="width: 225px;">
-              </div>
-            
-              </div>
-            
-          </div>
-          </div>
-          <div class="passport_block_2">
-            <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Когда выдан</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="20.01.2019" placeholder="Когда выдан" aria-label="Когда выдан" style="width: 200px;">
-              </div>
-            
-              </div>
-              <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Код подразделения</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="111-111" placeholder="Код подразделения" aria-label="Код подразделения" style="width: 200px;">
-              </div>
-            
-              </div>
-          </div>
-        </form>
-        <div class="passport_block_3">
-          <div class="row mb-1">
-            
-              <label for="inputName" class="col-sm-1 col-form-label col-form-label-sm" style="text-align: right; width: 200px;">Кем выдан</label>
-              <div class="col-sm-1">
-                <input type="text" class="form-control form-control-sm" value="ОТДЕЛЕНИЕМ ВНУТРЕННИХ ДЕЛ ЛЕНИНСКОГО РАЙОНА" placeholder="Кем выдан" aria-label="Кем выдан"style="width: 600px;">
-              </div>
-            
-              </div>
-        </div>
-      </div>
-
-      <div class="bki_mobi" style="width: 50%;">
-
-      <div class="bki p-2">
-        <p class="bki_text" style="width: 50%;">Согласие на передачу данных в БКИ</p>
-        <form class="bki_form">
-            <div class="row g-3 align-items-center">
-              <div class="col-auto">
-                <label for="inputText" class="col-form-label bki_form-label">Согласие на передачу данных в БКИ</label>
-              </div>
-              <div class="col-auto" style="width: 200px;">
-                <select id="inputState" class="form-select refusal_form-select">
-                <option selected></option>
-                <option>Да</option>
-                <option>Нет</option>
-              </select>
-              </div>
-            </div>
-          </form>
-      </div>
-
-      
-        <div class="mobi p-2" style="width: 98%;">
-          <p class="mobi_text">Кодовое слово</p>
-          <form class="mobi_form">
-            <div class="row g-3 align-items-center">
-              <div class="col-auto">
-                <label for="inputText" class="col-form-label mobi_form-label">Кодовое слово</label>
-              </div>
-              <div class="col-auto">
-                <input class="form-control form-control-sm" type="text" placeholder="" aria-label="input example">
-              </div>
-            </div>
-          </form>
-        </div>
-
-        </div>
-
-        </div>-->
+     
 
         <div class="income" style="width: 50%;position: relative; left: 50%;">
           <p class="income_text">Сведения о доходах</p>
@@ -385,7 +175,7 @@
 
       <div class="btn_bottom">
         <button class="btn_bottom_1">Сохранить и выйти</button>
-        <button class="btn_bottom_3">Далее</button>
+        <button class="btn_bottom_3"><a href="delivery_ncpk.html" style="text-decoration: none; color: white;">Далее</a></button>
       </div>
 
 
